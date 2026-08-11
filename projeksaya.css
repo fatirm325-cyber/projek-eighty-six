@@ -1,0 +1,127 @@
+body{
+    background: url(backgroung86.png) repeat-x;
+    background-size: cover;
+    color:#333333;
+    width:100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0 auto;
+}
+
+.header{
+    width:90%;
+    margin:auto;
+    height:100px;
+    line-height:100px;
+    background:#3366CC;
+    color:#fff;
+    padding:0 2pc;
+}
+.nav{
+    background-color:#3366CC;
+    height:50px; 
+    line-height:50px; 
+    position:relative;
+    width:90%;
+    margin:auto;
+    padding:0 2pc;
+}
+.nav ul {
+    list-style:none;
+}
+.nav ul li a {
+    float:left; 
+    width:70px; 
+    display:block; 
+    text-align:center; 
+    color:#FFF; 
+    text-decoration:none; 
+}
+.nav ul li a:hover {
+    background-color:#ffffff65; 
+    display:block;
+}
+.nav form{
+    float: right;
+    margin: auto;
+}
+.nav form input{
+    border: none;
+    height: 20px;
+}
+.content{
+    width:90%;
+    margin:auto;
+    height:850px;
+    padding:0.1px;
+    background:#272626;
+    color:#ffffff;
+    padding:0 2pc;
+}
+.artikel{
+    width:70%;
+    float:left;
+    margin:auto;
+    background:#272626;
+    height:800px;
+}
+.sidebar{
+    width:23%;
+    float:left;
+    margin:auto;
+    background:#272626;
+    height:500px;
+    padding:0 2pc;
+}
+.border{
+    border:2px solid #3366CC;
+    margin-top:1pc;
+    padding-bottom:1pc;
+    padding-left:2pc;
+    padding-right:2pc;
+    padding:0 2pc;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.border img{
+    padding-top: 1pc;
+    width: 160px ; 
+    height: auto;
+}
+
+.underscore{
+    text-underline-position: below;
+    -webkit-text-fill-color: #3366CC;
+    text-decoration: none;
+}
+
+.footer{
+    width:90%;
+    margin:auto;
+    height:40px;
+    line-height:40px;
+    background:#3366CC;
+    color:#fff;
+    margin-bottom: 1pc;
+    padding:0 2pc;
+}
+
+.back {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 13px;
+    background: #3366CC;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back:hover {
+    background: #272626;
+}
